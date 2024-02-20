@@ -1,0 +1,34 @@
+raise your hand = levanta tu mano
+open your book to page number... = abre tu libro en la pagina
+keep your distance = manten tu distancia
+stand up = pararse
+sit down = sentarse
+come to the front = ven al frente 
+can you lend me a pencil? = puedes prestarme un lapiz
+can i go to the restroom? = puedo ir al b
+can you repeat that, please? = puedes repetirlo, porfavor
+close the door, please = cierra la puerta porfavor
+excuse me = disculpa
+yes = si
+no = no
+thank you = gracias 
+please = por favor
+no, thank you = no, gracias
+sorry = lo siento
+stop = alto
+
+a-work in pairs
+b-stop
+c-please
+d-no
+e-excuse me
+f-open the door, please
+g-can you repeat that, please
+h-can you lend me a pencil, please
+i-can i go to the restroom
+j-come to the fron
+k-sit down
+l-keed your distance
+m-open your book to page number
+n-stand up
+o-raise your hand

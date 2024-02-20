@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <form action="" class="form-item">
+            <div class="align-row-center">
+                <h1 class="title">Calculadora Pro</h1>
+            </div>
+            <div class="form-items">
+                <label for="">ingrese el primer numero</label>
+                <input type="number" name="" id="numero1" required class="input-style cursor-pointer">
+            </div>
+            <div class="form-items">
+                <label for="">ingrese el primer numero</label>
+                <input type="number" name="" id="numero2" required class="input-style cursor-pointer">
+            </div>
+            <div class="form-items">
+                <label for="">selecciona una operacion</label>
+                <select name="" id="operacion" class="input-style cursor-pointer">
+                    <option value="sumar">sumar</option>
+                    <option value="restar">restar</option>
+                    <option value="multiplicar">multiplicar</option>
+                    <option value="dividir">dividir</option>
+                </select>
+            </div>
+            <div class="align-row-center">
+                <input type="submit" value="calcular" class="buttonCalcular cursor-pointer">
+                <div class="button-reset">
+                    <svg class="button-reset-img" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M19 8.001h-4V4.999a2.92 2.92 0 0 0-.874-2.108 2.943 2.943 0 0 0-2.39-.879C10.202 2.144 9 3.508 9 5.117V8H5c-1.103 0-2 .897-2 2v10c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-9.999c0-1.103-.897-2-2-2zM5 10h6V5.117c0-.57.407-1.07 1.002-1.117.266 0 .512.103.712.307a.956.956 0 0 1 .286.692V10h.995l.005.001h5V12H5v-2zm0 10v-6h14l.002 6H5z"></path></svg>
+                    <input type="reset" value="" class="button-reset-button cursor-pointer">
+                </div>
+            </div>
+
+        </form>
+    </main>
+    <section class="container-modal">
+        <div class="form-item modal">
+            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z"></path></svg> -->
+            <h2>Resultado...</h2>
+            <div style="display: flex; align-items: center;">
+                <p class="respuesta"></p>
+                <p class="resultado"></p>
+            </div>
+
+            <button class="button-modal cursor-pointer">
+                OK
+            </button>
+        </div>
+    </section>
+</body>
+<script src="./js/main.js"></script>
+</html>
